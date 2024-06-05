@@ -63,6 +63,26 @@ a:hover {
     gap:30px;
     justify-content: center;
 }
+
+#artext {
+    font-size: 60px;
+    background: linear-gradient(to left, #001f3f 0%, 
+    #0074D9 20%, 
+    #00BFFF 40%, 
+    #40E0D0 60%, 
+    #00FFFF 70%, 
+    #008080 80%, 
+    #20B2AA 90%, 
+    #00CED1 100%);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animeted 5s linear infinite;
+}
+
+@keyframes animeted {
+    to{background-position-x: 161px ;}
+}
 /*********************** fim principal-page ***********************/
 
 /*********************** principal ***********************/
